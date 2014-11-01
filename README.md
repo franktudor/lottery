@@ -1,7 +1,7 @@
 Lottery
 =======
 
-A Country and State Lottery Number Generator developed in Python.
+A Lottery Number Generator developed in Python.
 
 The concept of the lottery is a fun one.  Everyone would like to win a jackpot which would potentially solve all kinds of financial problems/constraints/limitations. However the fact is, each ticket is like buying a dream, and rarely to ever plays into a significant win. Several people can get $3 to $200 back after that things start to get severely difficult.
 
