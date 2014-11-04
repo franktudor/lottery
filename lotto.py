@@ -23,21 +23,16 @@ def workerFunction():
 
         except EOFError: pass
         if x.lower().startswith('q'):
-            print("done")
+            print("Done! Thanks for playing.")
             break
 
         # Otherwise you are passing something else that requires work from my factory!
 
-        elif x == '1': print( '\n\n Nebraska Pick Three',
-                              factory.repeater( 3, factory.factoryLogic, [0, 9, 1] ) )
-        elif x == '2': print( '\n\n Nebraska Pick Five',
-                              factory.factoryLogic( 1, 38, 5 ) )
-        elif x == '3': print( '\n\n Powerball',
-                              factory.factoryLogic( 1, 75, 5 ),
-                              factory.factoryLogic( 1, 15, 1 ) )
-        elif x == '4': print( '\n\n Mega Millions',
-                              factory.factoryLogic( 1, 55, 5 ),
-                              factory.factoryLogic( 1, 42, 1 ) )
+        elif x == '1': print( '\n\n Nebraska Pick Three',factory.repeater( 3, factory.factoryLogic, [0, 9, 1] ) )
+        elif x == '2': print( '\n\n Nebraska Pick Five',factory.factoryLogic( 1, 38, 5 ) )
+        elif x == '3': print( '\n\n Powerball',factory.factoryLogic( 1, 55, 5 ),factory.factoryLogic( 1, 42, 1 ) )
+        elif x == '4': print( '\n\n Mega Millions',factory.factoryLogic( 1, 75, 5 ),factory.factoryLogic( 1, 15, 1 ) )
+
 
 # My factory class (self is set to something)...
 # Not sure how to use it yet outside of the program I know it is like "this" in javascript.
