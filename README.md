@@ -1,4 +1,4 @@
-Lottery
+lottery
 =======
 
 A Lottery Number Generator developed in Python.
